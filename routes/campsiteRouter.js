@@ -44,8 +44,9 @@ campsiteRouter
 	})
 	.put((req, res) => {
 		res.write(`Updating the campsite: ${req.params.campsiteId}\n`);
-		res.end(`Will update the campsite: ${req.body.name}
-        with description: ${req.body.description}`);
+		res.end(
+			`Will update the campsite: ${req.body.name} with description: ${req.body.description}`
+		);
 	})
 	.delete((req, res) => {
 		res.end(`Deleting campsite: ${req.params.campsiteId}`);
