@@ -1,7 +1,7 @@
-const createError = require("http-errors");
 const express = require("express");
-const path = require("path");
 const logger = require("morgan");
+const createError = require("http-errors");
+const path = require("path");
 const passport = require("passport");
 const config = require("./config");
 
