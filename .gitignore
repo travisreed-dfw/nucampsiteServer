@@ -2,3 +2,5 @@ node_modules
 sessions
 bin/server.key
 bin/server.cert
+config.js
+public/index.html
