@@ -6,3 +6,5 @@ module.exports = {
 		clientSecret: " FACEBOOK CLIENT SECRET GOES HERE ",
 	},
 };
+
+// Created a new App ID and App Secret
